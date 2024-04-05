@@ -3,9 +3,9 @@
 <h1 align="center">Hi 👋, I'm Manthan Vyas</h1>
 <h3 align="center">A passionate Data Analyst/Data Scientist from India</h3>
 
-<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif">
-
 <br>
+
+<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif">
 
 - 🌱 I’m currently learning **Keras**
 
