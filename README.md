@@ -5,7 +5,7 @@
 
 <br>
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif">
+<img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif">
 
 - 🌱 I’m currently learning **Keras**
 
