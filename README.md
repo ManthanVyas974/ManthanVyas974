@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Keras**
 
-- 💬 Ask me about **Python, SQL, NumPy, Pandas, PyTorch, TensorFlow**
+- 💬 Ask me about **PyTorch, TensorFlow**
 
 - 📫 How to reach me **manthanvyas974@gmail.com**
 
