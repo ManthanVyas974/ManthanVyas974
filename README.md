@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Keras**
 
-- 💬 Ask me about **PyTorch, TensorFlow**
+- 💬 Ask me about **Machine Learning, Data Analysis, Deep Learning, Data Visualisation**
 
 - 📫 How to reach me **manthanvyas974@gmail.com**
 
