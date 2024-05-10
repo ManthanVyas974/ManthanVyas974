@@ -30,3 +30,43 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=xmanthanvyas&show_icons=true&locale=en" alt="xmanthanvyas" /></p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=xmanthanvyas&show_icons=true&locale=en&layout=compact" alt="xmanthanvyas" /></p>
+
+on:
+  schedule:
+      # every 6 hours
+    - cron: "0 */6 * * *"
+
+#This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    #Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: xmanthanvyas
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - run: git status
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
