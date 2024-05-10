@@ -30,5 +30,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=xmanthanvyas&show_icons=true&locale=en" alt="xmanthanvyas" /></p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=xmanthanvyas&show_icons=true&locale=en&layout=compact" alt="xmanthanvyas" /></p>
-
-![snake gif](https://github.com/xmanthanvyas/xmanthanvyas/blob/output/github-contribution-grid-snake.gif)
